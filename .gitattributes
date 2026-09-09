@@ -1,0 +1,13 @@
+# Normalise line endings; keep the Gradle wrapper script LF so it runs on Unix/CI.
+* text=auto eol=lf
+
+*.bat text eol=crlf
+gradlew text eol=lf
+
+*.jar binary
+*.apk binary
+*.aar binary
+*.keystore binary
+*.jks binary
+*.png binary
+*.webp binary

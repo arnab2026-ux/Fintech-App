@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Compose owns the real theming. This exists only so the window has a
+         background and no action bar before the first frame. -->
+    <style name="Theme.PortfolioTracker" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
